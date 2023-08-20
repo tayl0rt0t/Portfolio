@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <li className="mx-10 dec list-none flex space-x-9">
+    <li className="mx-10 my-10 dec list-none flex space-x-9">
       <Link to="/">
         <ul>Home</ul>
       </Link>

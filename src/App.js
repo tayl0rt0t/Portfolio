@@ -7,7 +7,6 @@ import Navbar from "./components/Navbar";
 import { SocialIcon } from "react-social-icons";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-import footer from "./components/Footer";
 import Footer from "./components/Footer";
 
 function App() {
@@ -64,7 +63,7 @@ function App() {
                 }
             },
             "opacity": {
-                "value": 0.8,
+                "value": 0.3,
                 "random": false,
                 "anim": {
                     "enable": false,
@@ -153,7 +152,7 @@ function App() {
         },
         "retina_detect": true,
         "background": {
-            "color": "#111",
+            "color": "#999",
             "image": "",
             "position": "50% 50%",
             "repeat": "no-repeat",

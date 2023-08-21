@@ -8,6 +8,10 @@ import { SocialIcon } from "react-social-icons";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import Footer from "./components/Footer";
+import Weather from "./components/Weather";
+
+
+
 
 function App() {
   const particlesInit = async (main) => {
@@ -22,6 +26,7 @@ function App() {
   return (
     <div>
       <Navbar />
+      <Weather/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -29,8 +34,8 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<Home />} />
       </Routes>
-      <div className='absolute bottom-0 right-0'>
-      <SocialIcon url="https://linkedin.com/in/taylor-treadwell" />
+      <div className='absolute bottom-6 right-6 drop-shadow-[0_4px_9px_rgba(255,0,127,0.9)]'>
+      <SocialIcon className=""  url="https://linkedin.com/in/taylor-treadwell" target="blank"/>
       </div>
       <div className="absolute bottom-0 left-0">
       <Footer/>
@@ -54,7 +59,7 @@ function App() {
                 }
             },
             "color": {
-                "value": "#ff1493"
+                "value": "#ff1393"
             },
             "shape": {
                 "type": "hexagon",
@@ -152,7 +157,7 @@ function App() {
         },
         "retina_detect": true,
         "background": {
-            "color": "#999",
+            "color": "#000",
             "image": "",
             "position": "50% 50%",
             "repeat": "no-repeat",

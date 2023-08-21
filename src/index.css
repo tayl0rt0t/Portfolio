@@ -13,6 +13,11 @@
   background-color: rgb(178, 162, 162);
   color: deeppink;
 } */
+body{
+  font-family: monospace;
+  color: deeppink;
+  
+}
 
 /* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
